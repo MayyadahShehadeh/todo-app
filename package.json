@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@blueprintjs/core": "^3.50.1",
     "node-sass": "^6.0.1",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.1",
