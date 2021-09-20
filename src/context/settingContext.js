@@ -5,7 +5,7 @@ export const SettingsContext = React.createContext();
 
 export default function settingProvider(props) {
     const state = {
-        completedItem: true,
+        completedItem: false,
         numberOfItems: 4,
         sortField: 'difficulty'
     }
@@ -15,8 +15,10 @@ export default function settingProvider(props) {
 
 
 return (
+    <>
     <SettingsContext.Provider value={state}>
         {props.children}
     </SettingsContext.Provider>
+    </>
 )
 }
